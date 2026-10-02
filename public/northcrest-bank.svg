@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Original Northcrest wordmark</title>
+  <desc id="desc">Original artwork for personal or educational use. Not an official bank logo and not affiliated with any financial institution.</desc>
+
+  <defs>
+    <linearGradient id="markbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12324F"/>
+      <stop offset="100%" stop-color="#0B1F33"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(28,36)">
+    <rect x="0" y="0" width="92" height="92" rx="18" fill="url(#markbg)"/>
+    <!-- north star + ridge -->
+    <polygon points="46,18 51,36 70,36 54,47 60,66 46,54 32,66 38,47 22,36 41,36" fill="#E8C547"/>
+    <path d="M18 74 L36 58 L46 68 L62 50 L74 74" fill="none" stroke="#E8C547" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(140,78)" fill="#0B1F33">
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" letter-spacing="3">NORTHCREST</text>
+    <text x="2" y="36" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="10" fill="#12324F">BANK</text>
+  </g>
+</svg>
