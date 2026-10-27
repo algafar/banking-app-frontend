@@ -51,7 +51,7 @@ export default function LoginPage() {
       const formDatabody = new URLSearchParams()
       formDatabody.append('username', formData.username)
       formDatabody.append('password', formData.password)
-
+      //login
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/login/`, {
         method: 'POST',
         headers: {
